@@ -1,22 +1,29 @@
 {
-    "name": "trexology/pointable",
-    "description": "Point system for Laravel 5",
+    "name": "nickstarkloff/pointable",
+    "description": "Point system for Laravel 6",
     "keywords": ["points", "pointable", "laravel", "loyalty", "reward"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Trex Lim",
-            "email": "trexlim@gmail.com"
+            "name": "Nick Starkloff",
+            "email": "me@nickstarkloff.dev"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "~5.0"
+        "php": ">=7.2",
+        "illuminate/http": "^6.0"
     },
     "autoload": {
         "psr-4": {
-            "Trexology\\Pointable\\": "src/"
+            "Starkloff\\Pointable\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Starkloff\\Pointable\\PointableServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
 }

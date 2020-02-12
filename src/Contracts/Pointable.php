@@ -1,6 +1,6 @@
 <?php
 
-namespace Trexology\Pointable\Contracts;
+namespace Starkloff\Pointable\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 

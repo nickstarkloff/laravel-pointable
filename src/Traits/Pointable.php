@@ -1,8 +1,8 @@
 <?php
 
-namespace Trexology\Pointable\Traits;
+namespace Starkloff\Pointable\Traits;
 
-use Trexology\Pointable\Models\Transaction;
+use Starkloff\Pointable\Models\Transaction;
 use Illuminate\Database\Eloquent\Model;
 
 trait Pointable

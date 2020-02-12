@@ -1,6 +1,6 @@
 <?php
 
-namespace Trexology\Pointable;
+namespace Starkloff\Pointable;
 
 use Illuminate\Support\ServiceProvider;
 
